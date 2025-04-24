@@ -4,7 +4,7 @@ import lzma
 import base64
 
 
-with open("cache_int.py", "rb") as f:
+with open("main/cache_int.py", "rb") as f:
     encrypted_data = f.read()
 
 compressed_data = base64.b16decode(encrypted_data)
