@@ -1,6 +1,0 @@
-requests
-bs4
-cookiejar
-colorama
-rich
-futures
